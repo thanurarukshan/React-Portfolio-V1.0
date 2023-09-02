@@ -1,0 +1,43 @@
+@font-face {
+    font-family:roboto ;
+    src: url(../public/Roboto-Regular.ttf);
+  }
+  
+body {
+    font: roboto ;
+}
+
+.footer-main {
+    display: flex;
+    color: white;
+    background-color: #252827;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    min-width: 100%;
+
+}
+
+.footer-main-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    scale: 150%;
+
+}
+.footer-main-icons a {
+    display: inline-flex;
+    color: white;
+    margin: 5px;
+}
+
+.footer-main-icons a:hover {
+    color: #ff9d04;
+    transition: 0.5s;
+}
+
+.footer-main-flex span {
+    font-size: 60%;
+}

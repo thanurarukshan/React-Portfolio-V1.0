@@ -1,0 +1,35 @@
+@font-face {
+    font-family:roboto ;
+    src: url(../public/Roboto-Regular.ttf);
+  }
+  
+body {
+    font: roboto ;
+}
+
+.main-container {
+    max-width: 70%;
+    margin:auto ;
+    margin-top: 200px;
+}
+
+.main-container-aboutme {
+    font-size: 60px;
+    color: #ff9d04 ;
+}
+.main-container p {
+    font-size: 20px;
+    color: #a9a9a9;
+    line-height: 150%;
+}
+.main-container-skills {
+    font-size: 30px;
+    color: black ;
+}
+
+@media (orientation: portrait) {
+    .main-container {
+        max-width: 70%;
+        margin: auto;
+    }
+}
